@@ -19,7 +19,7 @@ export default function Home() {
                         </div>
                         <div className="p-8 flex flex-col items-center text-center">
                             <h1 className="font-bold text-blue-500 text-lg">Discover New Signatures</h1>
-                            <p className="text-sm font-light text-gray-400 pt-4 pb-4">Best if you have a large collection of samples and don't expect aetiologies driving the tumours to be represented in <TextLink href="/infopages/databases" text="common signature databases"></TextLink>  </p>
+                            <p className="text-sm font-light text-gray-400 pt-4 pb-4">Best if you have a large collection of samples and do not expect aetiologies driving the tumours to be represented in <TextLink href="/infopages/databases" text="common signature databases"></TextLink>  </p>
                             <Link href="/underconstruction"><button className="bg-blue-500 text-white font-bold py-2 px-4 hover:scale-110 duration-75">{'->'}</button></Link>
                         </div>
                         <div className="p-8 flex flex-col items-center text-center">

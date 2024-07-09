@@ -1,6 +1,6 @@
 
 import Link from 'next/link';
-
+import Image from 'next/image';
 export default function CallToAction() {
     return (
         <div className="bg-white">
@@ -30,13 +30,13 @@ export default function CallToAction() {
                                 Get started
                             </Link>
                             <a href="#" className="text-sm font-semibold leading-6 text-white">
-                                Learn more <span aria-hidden="true">→</span>
+                                Quick Reference <span aria-hidden="true">→</span>
                             </a>
                         </div>
                     </div>
                     <div className="relative mt-16 h-80 lg:mt-8">
-                        <img alt="App screenshot"
-                            src="protocol.png" width={600}
+                        <Image alt="App screenshot"
+                            src="/protocol.png" width={600}
                             height={600}
                             className="align-middle" />
                     </div>
