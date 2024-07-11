@@ -15,17 +15,17 @@ export default function Home() {
                         <div className="p-8 flex flex-col items-center text-center">
                             <h1 className="font-bold text-blue-500 text-lg">Sufficient Mutations</h1>
                             <p className="text-sm font-light text-gray-400 pt-4 pb-4">This patient has lots of mutations</p>
-                            <button className="bg-blue-500 text-white font-bold py-2 px-4 hover:scale-110 duration-75">{'->'}</button>
+                            <Link href="/workflow/screen/fit"><button className="bg-blue-500 text-white font-bold py-2 px-4 hover:scale-110 duration-75">{'->'}</button></Link>
                         </div>
                         <div className="p-8 flex flex-col items-center text-center">
                             <h1 className="font-bold text-blue-500 text-lg">Quiet Tumour</h1>
                             <p className="text-sm font-light text-gray-400 pt-4 pb-4">Tumour has very few mutations</p>
-                            <button className="bg-blue-500 text-white font-bold py-2 px-4 hover:scale-110 duration-75">{'->'}</button>
+                            <Link href=""><button className="bg-blue-500 text-white font-bold py-2 px-4 hover:scale-110 duration-75">{'->'}</button></Link>
                         </div>
                         <div className="p-8 flex flex-col items-center text-center">
                             <h1 className="font-bold text-blue-500 text-lg">Unsure</h1>
                             <p className="text-sm font-light text-gray-400 pt-4 pb-4">Uncertain how to identify whether there are enough mutations in the sample?</p>
-                            <Link href="/infopages/essentialreading"><button className="bg-blue-500 text-white font-bold py-2 px-4 hover:scale-110 duration-75">{'->'}</button></Link>
+                            <Link href=""><button className="bg-blue-500 text-white font-bold py-2 px-4 hover:scale-110 duration-75">{'->'}</button></Link>
                         </div>
                     </div>
                 </div>
