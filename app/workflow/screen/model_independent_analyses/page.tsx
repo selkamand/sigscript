@@ -16,12 +16,12 @@ export default function Home() {
                     <div>
                         <h3 className="font-semibold mb-2 text-xl underline">1</h3>
                         <h3 className="font-semibold mb-2">Small Signature Database</h3>
-                        <p>If you're using COSMIC V3 or the signal reference cancer genome collection, this is unlikely.</p>
+                        <p>If using version 3 of the Cosmic Human Cancer Signature or Signal Cancer Reference Signatures collections, this is unlikely.</p>
                     </div>
                     <div>
                         <h3 className="font-semibold mb-2 text-xl underline">2</h3>
                         <h3 className="font-semibold mb-2">Rare or Undescribed Mechanism</h3>
-                        <p>This could indicate exciting new biology.</p>
+                        <p>There could could be exciting new biology to discover.</p>
                     </div>
                     <div>
                         <h3 className="font-semibold mb-2 text-xl underline">3</h3>
@@ -33,7 +33,7 @@ export default function Home() {
                 <p className="mb-8">All three possibilities should be explored systematically.</p>
                 <h2 className="font-bold text-xl mb-4">[1] Was my database too small?</h2>
                 <p className="mb-8">
-                    If you know you're using a small signature database (e.g., one specific to your cancer's organ), consider switching to a different/larger database. If that results in a convincing model, great. If not, proceed with the remaining checks.
+                    If you know you are using a small signature database (e.g., one specific to the organ your sample was collected from), consider switching to a different/larger database. If that results in a convincing model, great. If not, proceed with the remaining checks.
                 </p>
                 <hr className="mb-8" />
                 <h2 className="font-bold text-xl mb-4">[2,3] Is my mutational profile artefactual or does it represent interesting (potentially new) biology?</h2>
@@ -41,7 +41,7 @@ export default function Home() {
                     Perform a similar sample analysis against the rest of your cancer cohort. If there are some very similar samples that share other biological similarities with your sample, an undescribed signature may be a possibility. If similar samples exist but share no biological features, only technical ones (e.g., samples sequenced in the same batch), then your sample is probably artificial.
                 </p>
                 <p className="mb-8">
-                    If you don't have a big control database, use the Signal online platform to compare your sample to the ICGC PCAWG, Hartwig, and Genomics England's 100,000 Genomes Project cancer samples.
+                    If you do not have access to a large collection of samples, use the Signal online platform to compare your sample to the PCAWG, Hartwig, and the Genomics England 100,000 Genomes Project cancer samples.
                 </p>
                 <hr className="mb-8" />
                 <h2 className="underline text-xl mb-4">Additional checks for artificial signatures</h2>
