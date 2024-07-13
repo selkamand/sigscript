@@ -15,7 +15,7 @@ export default function Home() {
                         <div className="p-8 flex flex-col items-center text-center">
                             <h1 className="font-bold text-blue-500 text-lg">Model fits the data well</h1>
                             <p className="text-sm font-light text-gray-400 pt-4 pb-4">The model shows high cosine-similarity to the observed data, but not overfit (i.e. similarity is not achieved by the presence of large numbers of unrelated signatures)</p>
-                            <button className="bg-blue-500 text-white font-bold py-2 px-4 hover:scale-110 duration-75">{'->'}</button>
+                            <Link href="/workflow/screen/biocontext"><button className="bg-blue-500 text-white font-bold py-2 px-4 hover:scale-110 duration-75">{'->'}</button></Link>
                         </div>
                         <div className="p-8 flex flex-col items-center text-center">
                             <h1 className="font-bold text-blue-500 text-lg">Model is not representative of the observed data</h1>
