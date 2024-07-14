@@ -16,12 +16,12 @@ export default function BioContext() {
                         <div className="p-8 flex flex-col items-center text-center">
                             <h1 className="font-bold text-blue-500 text-lg">Signature makes biological sense</h1>
                             <p className="text-sm font-light text-gray-400 pt-4 pb-4">The aetiologies that generate the predicted signatures are likely to have occurred in the tumor.</p>
-                            <button className="bg-blue-500 text-white font-bold py-2 px-4 hover:scale-110 duration-75">{'->'}</button>
+                            <Link href="/workflow/screen/biocontextpass"><button className="bg-blue-500 text-white font-bold py-2 px-4 hover:scale-110 duration-75">{'->'}</button></Link>
                         </div>
                         <div className="p-8 flex flex-col items-center text-center">
                             <h1 className="font-bold text-blue-500 text-lg">Signature does NOT make biological sense</h1>
                             <p className="text-sm font-light text-gray-400 pt-4 pb-4">The observed signature is not typical of this cancer type and cannot be easily explained by other biological evidence, such as specific gene mutations.</p>
-                            <Link href="/workflow/screen/model_independent_analyses"><button className="bg-blue-500 text-white font-bold py-2 px-4 hover:scale-110 duration-75">{'->'}</button></Link>
+                            <Link href=""><button className="bg-blue-500 text-white font-bold py-2 px-4 hover:scale-110 duration-75">{'->'}</button></Link>
                         </div>
 
                     </div>
