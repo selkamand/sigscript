@@ -9,7 +9,7 @@ export default function Home() {
 
                 <div className="relative px-4 py-10 bg-white shadow-lg sm:rounded-1xl sm:p-20">
                     <h1 className="mb-4 text-4xl text-center font-extrabold leading-none tracking-tight text-gray-900 pb-4 pt-0">Does the mutational signature model fit the data well?</h1>
-                    <p className="text-center pb-8">If the signature model does not represent the observed data well, nothing can be inferred from the signature contribution percentages that model are drawn from.  </p>
+                    <p className="text-center pb-8">If the signature model does not accurately represent the observed data, the signature contribution percentages derived from the model are not reliable and cannot provide meaningful insights.</p>
                     <hr className="" />
                     <div className="grid sm:grid-cols-3 gap-4">
                         <div className="p-8 flex flex-col items-center text-center">
