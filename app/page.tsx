@@ -26,7 +26,7 @@ export default function Home() {
               </radialGradient>
             </defs>
           </svg>
-          <div className="mx-auto max-w-md text-center lg:mx-0 lg:flex-auto lg:py-32 lg:text-left">
+          <div className="text-center lg:mx-0 lg:flex-auto lg:py-32 lg:text-left">
             <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">
               Interpret Mutational Signatures
             </h2>
@@ -49,15 +49,7 @@ export default function Home() {
               </Link>
             </div>
           </div>
-          <div className="relative mt-16 h-80 lg:mt-8 lg:flex lg:items-center lg:justify-center">
-            <Image
-              alt="App screenshot"
-              src="/protocol.png"
-              width={600}
-              height={600}
-              className="align-middle"
-            />
-          </div>
+
         </div>
       </div>
       <div className="bg-orange-300 text-center py-4 lg:px-4">
