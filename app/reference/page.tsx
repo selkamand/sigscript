@@ -17,7 +17,6 @@ export default function Reference() {
                 </div>
                 {/* <Image src={workflow} alt="Workflow" className="mx-auto"></Image> */}
             </Panel >
-
         </div >
 
     )

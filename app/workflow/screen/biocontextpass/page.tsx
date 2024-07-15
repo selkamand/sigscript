@@ -2,7 +2,8 @@ import TextLink from "@/components/ui/textlink"
 import Link from "next/link";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faTriangleExclamation } from "@fortawesome/free-solid-svg-icons/faTriangleExclamation";
-export default function Home() {
+import QuickRefLink from "@/components/ui/quickreflink";
+export default function BioContext() {
     return (
 
         <div>
@@ -17,6 +18,7 @@ export default function Home() {
                     {/* <p className="text-center pt-4"><FontAwesomeIcon icon={faTriangleExclamation} className="text-orange-300 text-4xl"></FontAwesomeIcon></p> */}
 
                 </div>
+                <QuickRefLink></QuickRefLink>
             </div>
         </div>
     );

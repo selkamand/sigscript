@@ -1,3 +1,4 @@
+import QuickRefLink from "@/components/ui/quickreflink";
 import TextLink from "@/components/ui/textlink";
 import Link from "next/link";
 
@@ -75,6 +76,7 @@ export default function ModelIndependentAnalyses() {
                     Finally, utilize tools like STREME for motif discovery to identify any sequence-context biases of your mutations.
                 </p>
             </div>
-        </div >
+            <QuickRefLink></QuickRefLink>
+        </div>
     );
 }

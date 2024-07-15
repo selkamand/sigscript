@@ -1,3 +1,4 @@
+import QuickRefLink from "@/components/ui/quickreflink";
 import TextLink from "@/components/ui/textlink"
 import Link from "next/link";
 
@@ -29,6 +30,7 @@ export default function Home() {
                         </div>
                     </div>
                 </div>
+                <QuickRefLink></QuickRefLink>
             </div>
         </div>
     );

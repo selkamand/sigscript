@@ -1,3 +1,4 @@
+import QuickRefLink from "@/components/ui/quickreflink";
 import TextLink from "@/components/ui/textlink"
 import Link from "next/link";
 
@@ -23,9 +24,9 @@ export default function BioContext() {
                             <p className="text-sm font-light text-gray-400 pt-4 pb-4">The observed signature is not typical of this cancer type and cannot be easily explained by other biological evidence, such as specific gene mutations.</p>
                             <Link href=""><button className="bg-blue-500 text-white font-bold py-2 px-4 hover:scale-110 duration-75">{'->'}</button></Link>
                         </div>
-
                     </div>
                 </div>
+                <QuickRefLink></QuickRefLink>
             </div>
         </div>
     );
